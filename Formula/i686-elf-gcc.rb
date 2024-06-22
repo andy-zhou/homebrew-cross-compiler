@@ -24,6 +24,7 @@ class I686ElfGcc < Formula
       system "../configure", "--target=#{target}",
                              "--prefix=#{prefix}",
                              "--infodir=#{info}/#{target}",
+                             "--disable-hosted-libstdcxx",
                              "--disable-nls",
                              "--without-isl",
                              "--without-headers",
