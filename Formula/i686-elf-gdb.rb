@@ -11,16 +11,6 @@ class I686ElfGdb < Formula
     formula "gdb"
   end
 
-  bottle do
-    sha256 arm64_sonoma:   "3ada87a84bb52d584881f785be85a27d62e61bdeb205ffb0636a015aa8ffd0ef"
-    sha256 arm64_ventura:  "2823a909bcb2690ceb44f86a578028e1056b954a755f3f7d3ca831c0416caad7"
-    sha256 arm64_monterey: "faed2b54ed55aceff38af30599985589dbba414cb5139bfb6878a91fc3685935"
-    sha256 sonoma:         "b478c9a08378b542c5febada80bc13be5d26755cf1640a37a0eefeb1c8edc60b"
-    sha256 ventura:        "37766cbf0f336352a604124e4658d835184fec4c67b248587380f5440b5c34b3"
-    sha256 monterey:       "caf010b58f2d7fe989f8098b928b94335abae251b02ca959786bee5008ef169d"
-    sha256 x86_64_linux:   "c30326ac88489c32ae487569b81b36c10483929008c62cd862b67091a6ff1e76"
-  end
-
   depends_on "andy-zhou/cross-compiler/i686-elf-gcc" => :test
   depends_on "gmp"
   depends_on "mpfr"

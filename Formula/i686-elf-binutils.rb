@@ -10,16 +10,6 @@ class I686ElfBinutils < Formula
     formula "binutils"
   end
 
-  bottle do
-    sha256 arm64_sonoma:   "804d849a27e5ee2b822f58b5877a6b2529bc9e1292106232e9e8efa2f2231621"
-    sha256 arm64_ventura:  "4ba5070c9e8a3df848ad7e47b8e8451dab3b32394a25d92026386ee715b330b6"
-    sha256 arm64_monterey: "af17c2346c5270ca02124d957e1e0f62e4c7a40669ecc37e12578649b3852352"
-    sha256 sonoma:         "85defe4d17e25e359c03e408ec91ddd512579fe8d41c02c71221381adecfa510"
-    sha256 ventura:        "a5e8ec4c681084eb9b931d87553655ce2673d17adb1846968a32ea17f1609e65"
-    sha256 monterey:       "df47d8f2feef198edfca99bf9477fbe3d0d22019a8a620de050ef0b8f68984d0"
-    sha256 x86_64_linux:   "a52dd1e22aece73ec60f665ee1748ae63b6cb408672646c6ad5268f0260179a4"
-  end
-
   depends_on "pkg-config" => :build
   depends_on "zstd"
 

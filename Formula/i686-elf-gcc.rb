@@ -13,16 +13,6 @@ class I686ElfGcc < Formula
     formula "gcc"
   end
 
-  bottle do
-    sha256 arm64_sonoma:   "286996cd100db5ab8fe89b6c76d77a3c10d978c7f2426f6e1ae79246ed44951a"
-    sha256 arm64_ventura:  "6ae8b24a326fa19c41023d3750cd4dd1365afa294f80d04543449c8242887710"
-    sha256 arm64_monterey: "3b2a2bf35e2ea64aa356ab0793de01a23d8536715785f793c146457e3a462ca5"
-    sha256 sonoma:         "6eb0c8174c52b6b5824047a369135ba7a437deca741d46807f65f999440cefdb"
-    sha256 ventura:        "e471f5fb67162666efcab697b8de4fdae8e624a6c560ca43656894db144ff367"
-    sha256 monterey:       "7cbe9b4ddeb1052098a4cfe878899e8bf5701bc96334223ed423a48d4a357195"
-    sha256 x86_64_linux:   "32aceec99199f28b1d62bc65e20937168f88967b0afeb9a368f34390e808256f"
-  end
-
   depends_on "gmp"
   depends_on "andy-zhou/cross-compiler/i686-elf-binutils"
   depends_on "libmpc"
