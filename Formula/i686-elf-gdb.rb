@@ -1,5 +1,5 @@
-class I386ElfGdb < Formula
-  desc "GNU debugger for i386-elf cross development"
+class I686ElfGdb < Formula
+  desc "GNU debugger for i686-elf cross development"
   homepage "https://www.gnu.org/software/gdb/"
   url "https://ftp.gnu.org/gnu/gdb/gdb-14.2.tar.xz"
   mirror "https://ftpmirror.gnu.org/gdb/gdb-14.2.tar.xz"
