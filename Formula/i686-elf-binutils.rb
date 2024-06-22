@@ -27,6 +27,7 @@ class I686ElfBinutils < Formula
                           "--infodir=#{info}/#{target}",
                           "--with-system-zlib",
                           "--with-zstd",
+                          "--with-sysroot",
                           "--disable-nls"
     system "make"
     system "make", "install"
